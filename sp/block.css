@@ -1,0 +1,737 @@
+/* ==============================================
+ブロック共通
+/* ============================================= */
+
+body {
+    font-family: kozuka-gothic-pro, 'M PLUS 1p', sans-serif;
+    color: #333333;
+}
+
+a {
+    color: #333333;
+}
+
+.ui-link:link,
+a.ui-link {
+    color: #333333!important;
+    font-family: 'M PLUS 1p', sans-serif!important;
+    font-weight: 400;
+}
+
+.ui-body-f,
+.ui-body-f input,
+.ui-body-f select,
+.ui-body-f button {
+    font-family: 'M PLUS 1p', sans-serif!important;
+}
+
+.sale_price {
+    font-weight: 500;
+}
+
+.to_archive {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.to_archive .ui-btn {
+    width: 44%!important;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.to_archive .ui-btn-inner {
+    padding: 0;
+}
+
+.ui-btn-up-f {
+    background-color: rgba(0, 0, 0, 0)!important;
+    border: solid 2px #e44383!important;
+    color: #e44383!important;
+}
+
+.to_archive button,
+.to_archive a {
+    border-radius: 20px;
+    border: 1px solid #e44383;
+    color: #e44383;
+    background: white;
+    padding: 5px 18px 5px 18px;
+    width: 62%;
+    font-size: 16px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 500;
+}
+
+
+/*会員内容変更*/
+
+.ui-radio .ui-btn-up-f {
+    border: #4C4C4C solid 1px !important;
+    border-radius: 5px !important;
+}
+
+
+/* 外枠
+----------------------------------------------- */
+
+.block_outer,
+#ranking_area {
+    padding: 0 0 35px;
+}
+
+
+/* ===============================================
+▼オススメ情報
+=============================================== */
+
+#pickup_info_area .pickup_contents {
+    margin-top: 13px;
+}
+
+#pickup_info_area .pickup_contents div {
+    margin-top: 10px;
+}
+
+#pickup_info_area .pickup_contents div.banner1 {
+    height: 105px;
+    width: auto;
+    background: #f9e6ec;
+    font-weight: 500!important;
+    font-family: Helvetica, Arial, sans-serif!important;
+}
+
+#pickup_info_area .pickup_contents div.banner1 p {
+    line-height: 35px;
+    color: #e44383;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold!important;
+    font-family: Helvetica, Arial, sans-serif!important;
+}
+
+#pickup_info_area .pickup_contents div.banner1 p {
+    height: 105px;
+    padding-top: 30px;
+    line-height: 26px;
+}
+
+
+/* ===============================================
+▼新作アイテム
+=============================================== */
+
+#new_items_area .block_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#new_items_area .block_body .product_item {
+    width: 170px;
+    margin-bottom: 13px;
+}
+
+
+/* ===============================================
+▼ランキング
+=============================================== */
+
+.tab-area {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 10px;
+    height: 33px;
+    border-bottom: solid 2px #e44383;
+}
+
+.tab-area .ui-radio {
+    width: 33%;
+}
+
+.tab-area .ui-radio .ui-btn-up-f {
+    border: none!important;
+}
+
+.tab-area .ui-radio .tab.ui-btn {
+    margin-left: 3px;
+    height: 27px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #edebeb !important;
+    padding: 3px 0;
+    font-size: 14px;
+    display: block;
+}
+
+.tab-area .ui-radio .tab.ui-btn:last-child {
+    margin-right: 3px;
+}
+
+.tab-area .ui-radio .tab.ui-btn-icon-left .ui-btn-inner {
+    padding: 0;
+}
+
+.tab-area .ui-radio .tab.ui-btn-icon-left .ui-btn-inner .ui-btn-text {
+    font-size: 12px;
+}
+
+.tab-area .ui-radio .tab.ui-btn-icon-left .ui-icon {
+    display: none;
+}
+
+.tab-area .ui-radio .tab.ui-btn.active {
+    background-color: white!important;
+    color: #e44383 !important;
+    border-left: 2px solid #e44383 !important;
+    border-right: 2px solid #e44383 !important;
+    border-top: 2px solid #e44383 !important;
+}
+
+.tab_wrap .ui-radio input {
+    display: none;
+}
+
+.content-area {
+    font-size: 30px;
+    text-align: center;
+}
+
+.content-area .content {
+    display: none;
+}
+
+.content-area .content.show {
+    margin-top: 13px;
+    display: block;
+}
+
+#ranking_area .block_body .content .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ranking_area .block_body .content .rank-title {
+    text-align: center;
+    font-size: 16px;
+    color: #e44383;
+}
+
+#ranking_area .block_body .content-area .product_item {
+    width: 170px;
+    margin-bottom: 13px;
+}
+
+#ranking_area .block_body .content-area .product_item .rank_num {
+    text-align: left;
+    font-size: 13px;
+}
+
+#ranking_area .block_body .content-area .product_item h3,
+#ranking_area .block_body .content-area .product_item p {
+    font-size: 13px;
+    text-align: left;
+}
+
+
+/* ===============================================
+▼マガジン
+=============================================== */
+
+#magazine_area .magazine_contents {
+    margin-top: 15px;
+}
+
+#magazine_area .first_article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#magazine_area .first_article>img {
+    width: 100%;
+    height: auto;
+}
+
+#magazine_area .first_article .article_textarea {
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+#magazine_area .first_article .article_textarea h3 {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+#magazine_area .first_article .article_textarea p {
+    font-size: 13px;
+}
+
+#magazine_area .first_article .article_main_text {
+    /*width: 424px;*/
+    display: none;
+}
+
+#magazine_area .sub_article_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+#magazine_area .sub_article_wrap .sub_article {
+    width: 31%;
+}
+
+#magazine_area .sub_article_wrap .sub_article h3 {
+    font-weight: 400;
+}
+
+#magazine_area .sub_article_wrap .sub_article img {
+    width: 100%;
+}
+
+
+/* ==============================================
+モデル
+/* ============================================= */
+
+#models_area .models_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#models_area .models_list .model_content {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #d1d1d1;
+}
+
+#models_area .models_list .model_content a:first-child {
+    width: 31%;
+}
+
+#models_area .models_list .model_content a:first-child img {
+    width: 100%;
+}
+
+#models_area .models_list .model_content a:last-child {
+    padding-left: 10px;
+}
+
+#models_area .models_list .model_content .model_info p:first-child {
+    color: #999;
+    font-weight: 400;
+}
+
+#models_area .models_list .model_content .model_info p {
+    font-weight: 400;
+}
+
+#models_area .models_list .model_content .model_info h4 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
+/* ===============================================
+▼先行販売ブランド
+=============================================== */
+
+#leading_area .leading_contents {
+    margin-top: 13px;
+}
+
+#leading_area .leading_contents div {
+    margin-top: 10px;
+}
+
+#leading_area .leading_contents div:last-child {
+    margin-bottom: 15px;
+}
+
+
+/* ===============================================
+▼新着情報
+=============================================== */
+
+#news_area .news_contents {
+    /*padding: 10px;*/
+    /*max-height: 260px;*/
+    height: auto !important;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#news_area li {
+    background: rgba(0, 0, 0, 0)!important;
+    padding: 10px 0!important;
+}
+
+#news_area li a {
+    color: #333333;
+}
+
+#news_area li a .news_title {
+    margin-left: -6px;
+}
+
+#news_area .news_archive {
+    margin: 20px 0 35px 0;
+}
+
+#news_area dl.newslist {
+    background: url("../img/background/line_dot_01.gif") repeat-x bottom;
+}
+
+#news_area dl.newslist:last-child {
+    /* IE9 未満では無効 (影響度合いが低いので黙殺) */
+    /*background: none;*/
+}
+
+#news_area dl.newslist dt {
+    margin-bottom: 5px;
+}
+
+#news_area dl.newslist dd {
+    display: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* ===============================================
+▼ショッピングガイド
+=============================================== */
+
+#shoping_guide_area .guide_contents {
+    margin-top: 20px;
+}
+
+#shoping_guide_area .guide_contents div {
+    margin-bottom: 20px;
+}
+
+#shoping_guide_area .guide_contents div .open_button {
+    width: calc(100% - 22px);
+    border: solid 1px #ccc;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#shoping_guide_area .guide_contents div .open_button h4 {
+    position: relative;
+}
+
+#shoping_guide_area .guide_contents div .open_button h4:after {
+    content: "^";
+    font-size: 19px;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    transform: scaleX(1.4) rotateX(180deg);
+    font-weight: 400;
+    color: #999;
+    transition: 0.4s;
+}
+
+#shoping_guide_area .guide_contents div .open_text {
+    /*transition: 1s;*/
+    display: none;
+}
+
+#shoping_guide_area .guide_contents div .open_button.close h4:after {
+    transform: scaleX(1.4);
+    top: 0;
+    transition: 0.4s;
+}
+
+#shoping_guide_area .guide_contents div .open_text p {
+    margin-bottom: 10px;
+}
+
+
+/* ===============================================
+▼検索フォーム
+=============================================== */
+
+.nav-wrapper_search {
+    /* transition: .3s; */
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(112, 112, 112, 0.8);
+    z-index: 100;
+    display: none;
+}
+
+.header-nav_search {
+    width: 90%;
+    margin-left: auto;
+    background: white;
+}
+
+#search_area {
+    font-weight: 500;
+    padding: 0;
+    /*display: none;*/
+}
+
+#search_area h2.search_h2 {
+    height: 45px;
+    background: #e44383;
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    color: white;
+    padding: 0 4%;
+    line-height: 2;
+    font-weight: 400;
+}
+
+#search_area h2.search_h2 span {
+    font-size: 13px;
+    float: right;
+    line-height: 3.7;
+    margin-right: 4%;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+#search_area .block_body {
+    padding: 10px;
+}
+
+#search_area .ui-body-f,
+#search_area .ui-btn-up-f {
+    border: none;
+}
+
+#search_area .ui-shadow-inset,
+#search_area .ui-btn-up-f {
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+
+#search_area dl.formlist dt {
+    background: none;
+    padding-left: 0;
+    margin: 7px 0;
+    text-align: left;
+}
+
+#search_area dl.formlist dt span.search-c {
+    vertical-align: top;
+    line-height: 2.4;
+    margin-left: 10px;
+}
+
+#search_area dl.formlist dd {
+    margin-bottom: 9px;
+}
+
+#search_area dl.formlist dd:last-child {
+    margin-bottom: 15px;
+}
+
+#search_area dl.formlist:nth-child(2) dd input:first-child {
+    width: 202px;
+    border: solid 1px #CCC;
+    padding: 6px;
+    padding-bottom: 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+#search_area .ui-btn-up-f {
+    border: none!important;
+    background: rgba(0, 0, 0, 0);
+}
+
+#search_area .key_search .ui-input-text {
+    font-size: 21px;
+    border-radius: 3px;
+}
+
+#search_area .key_search .ui-submit {
+    margin: 0;
+    border-radius: 3px;
+}
+
+#search_area dl.formlist:nth-child(2) dd .search_btn,
+#search_area .ui-btn-inner {
+    color: white;
+    background: #6c7274;
+    border: none;
+    font-size: 14px;
+    padding: 7px 9px;
+    border-radius: 0;
+    margin-top: -1px;
+}
+
+#container .side_column .block_outer {
+    padding: 0 3% 10px;
+}
+
+#search_area dl.formlist dd {
+    width: 48%;
+    float: left;
+    text-align: center;
+    margin-right: 9px;
+}
+
+#search_area dl.formlist dd:nth-child(odd) {
+    margin-right: 0;
+}
+
+#search_area dl.formlist dd:last-child {
+    margin-right: 0;
+}
+
+#search_area dl.formlist.key_search dd {
+    display: flex;
+    width: 99%;
+}
+
+#search_area dl.formlist.color_radio dt {
+    margin-right: 10px;
+}
+
+#search_area dl.formlist.color_radio dd {
+    width: 23%;
+    margin-right: 6px;
+}
+
+#search_area dl.formlist.color_radio dd a {
+    border: none;
+    background: rgba(0, 0, 0, 0);
+}
+
+#search_area dl.formlist.color_radio dd a.active {
+    border: none;
+    background: #e44383;
+    /* 検索条件選択時の背景色を指定する */
+    opacity: 0.7;
+}
+
+#search_area dl.formlist dd label {
+    border: solid 1px #ccc;
+    display: block;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#search_area dl.formlist dd a {
+    border: solid 1px #ccc;
+    display: block;
+    padding: 6px;
+    border-radius: 5px;
+    color: #333333;
+    background: #f5f5f5;
+}
+
+#search_area dl.formlist dd a:hover {
+    background: #e44383;
+    /* マウス選択時の背景色を指定する */
+    color: #ffffff;
+    /* マウス選択時のフォント色を指定する */
+    text-decoration: none;
+}
+
+#search_area dl.formlist dd a.active {
+    background: #e44383;
+    /* 検索条件選択時の背景色を指定する */
+    color: #fff !important;
+    /* 検索条件選択時のフォント色を指定する */
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#search_area dl.formlist.type_search dd a {
+    padding: 6px 0;
+}
+
+#search_area ul li a {
+    color: #333;
+}
+
+#search_area ul.brand_block li {
+    padding: 14px 0;
+    border-bottom: solid 1px #ccc;
+    text-align: left;
+}
+
+#search_area ul.brand_block li.active {
+    background: rgba(228, 67, 131, 0.7);
+    /* 検索条件選択時の背景色を指定する */
+}
+
+#search_area ul.brand_block li a {
+    font-size: 14px;
+}
+
+#search_area ul.brand_block li.active a {
+    color: #fff;
+}
+
+#search_area ul.model_block li {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#search_area ul.model_block li.active {
+    background: rgba(228, 67, 131, 0.7);
+    /* 検索条件選択時の背景色を指定する */
+}
+
+#search_area ul.model_block li a img {
+    margin-right: 10px;
+}
+
+#search_area ul.model_block li a .model_info {
+    text-align: left;
+}
+
+#search_area ul.model_block li a p {
+    color: #999999;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+#search_area ul.model_block li.active a p {
+    color: #fff;
+}
+
+#search_area ul.model_block li a h4 {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+#search_area ul.model_block li.active a h4 {
+    color: #fff;
+}
+
+#search_area ul.model_block li a p.brand_name {
+    color: #333333;
+}
+
+#search_area ul.model_block li.active a p.brand_name {
+    color: #fff;
+}
+
+.nav-wrapper_search .search-btn-close {
+    left: 5px;
+    top: 2px;
+    position: absolute;
+    width: 30px;
+}

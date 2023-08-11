@@ -1,0 +1,213 @@
+/* ===============================================
+▼オススメ情報
+=============================================== */
+
+#pickup_info_area .pickup_contents {
+    margin-top: 20px;
+}
+
+#pickup_info_area .pickup_contents div {
+    margin-top: 10px;
+}
+
+#pickup_info_area .pickup_contents div.banner1 {
+    height: 150px;
+    width: 760px;
+    background: #f9e6ec;
+}
+
+#pickup_info_area .pickup_contents div.banner1 p {
+    line-height: 35px;
+    color: #e44383;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+/* ===============================================
+▼新作アイテム
+=============================================== */
+
+#new_items_area .block_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#new_items_area .block_body .product_item {
+    width: 240px;
+}
+
+
+/* ===============================================
+▼ランキング
+============================================== */
+
+.tab-area {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 25px;
+    height: 34px;
+    border-bottom: solid 2px #e44383;
+}
+
+.tab-area .tab {
+    margin-left: 3px;
+    width: 300px;
+    height: 28px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    background-color: #edebeb;
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+.tab-area .tab:last-child {
+    margin-right: 3px;
+}
+
+.tab-area .tab.active {
+    background-color: white;
+    color: #e44383;
+    border-left: 2px solid #e44383;
+    border-right: 2px solid #e44383;
+    border-top: 2px solid #e44383;
+}
+
+.tab_wrap .ui-radio input {
+    display: none;
+}
+
+.content-area {
+    font-size: 30px;
+    text-align: center;
+}
+
+.content-area .content {
+    display: none;
+}
+
+.content-area .content.show {
+    margin-top: 50px;
+    display: block;
+}
+
+#ranking_area .block_body .content .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ranking_area .block_body .content .rank-title {
+    text-align: center;
+}
+
+#ranking_area .block_body .content-area .product_item {
+    width: 240px;
+}
+
+#ranking_area .block_body .content-area .product_item .rank_num {
+    text-align: left;
+    display: flex;
+    gap: 7px;
+}
+
+#ranking_area .block_body .content-area .product_item h3,
+#ranking_area .block_body .content-area .product_item p {
+    font-size: 13px;
+    text-align: left;
+}
+
+
+/* ===============================================
+▼マガジン
+=============================================== */
+
+#magazine_area .first_article {
+    display: flex;
+    justify-content: space-between;
+}
+
+#magazine_area .first_article .article_main_text {
+    width: 424px;
+}
+
+#magazine_area .sub_article_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+#magazine_area .sub_article_wrap .sub_article {
+    width: 240px;
+}
+
+#magazine_area .sub_article_wrap .sub_article img {
+    width: 100%;
+}
+
+
+/* ===============================================
+▼マガジン
+=============================================== */
+
+#models_area .models_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#models_area .models_list .model_content {
+    display: flex;
+}
+
+
+/* ===============================================
+▼先行販売ブランド
+=============================================== */
+
+#leading_area .leading_contents {
+    margin-top: 20px;
+}
+
+#leading_area .leading_contents div {
+    margin-top: 10px;
+}
+
+#leading_area .leading_contents div:last-child {
+    margin-bottom: 15px;
+}
+
+
+/* ===============================================
+▼新着情報
+=============================================== */
+
+#news_area .news_contents {
+    /*padding: 10px;*/
+    /*max-height: 260px;*/
+    height: auto !important;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+#news_area dl.newslist {
+    background: url("../img/background/line_dot_01.gif") repeat-x bottom;
+}
+
+#news_area dl.newslist:last-child {
+    /* IE9 未満では無効 (影響度合いが低いので黙殺) */
+    /*background: none;*/
+}
+
+#news_area dl.newslist dt {
+    margin-bottom: 5px;
+}
+
+#news_area dl.newslist dd {
+    display: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
