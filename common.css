@@ -401,9 +401,126 @@ div#undercolumn_login .login_area h4 {
  ヘッダー
 =============================================== */
 
+/* ====================================
+SMART CSS 
+========================================*/
+/* RIGHT */
+.openNav{
+   display: none;
+}
+
+.right_overlay {
+    display: none;
+  }
+
+  /* LEFT */
+  .overlay {
+   display: none;
+  }
+  
+  
+  .overlay-content {
+    position: relative;
+    width: 80%;
+    height: 95vh;
+    background-color: #fce8f2;
+  }
+  
+  .overlay a {
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #e44383;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    font-size: 50px;
+    z-index: 2000;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 20px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .smart_menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+
+  .a_btn{
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    width: 30%;
+    height:  8vh;
+    
+  }
+
+  .a_btn img{
+    height: 30px;
+  }
+
+  .menu_ja_smart{
+  }
+  .home_title{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .home_title img{
+    padding-top: 17px;
+    padding-right: 10px;
+   width: 30px;
+   height: 30px;
+  }
+
+  .home_title span{
+    padding-top: 20px;
+   }
+
+  .home_txt{
+    font-size: 30px;
+    color: #e44383;
+  }
+/* ==========================================
+SMART END 
+====================================*/
 
 /* レイアウト
 ----------------------------------------------- */
+
+/* ====================================
+SMART CSS 
+========================================*/
+.smart_header {
+    display: none;
+}
+#sidebarMenu {
+  display: none;
+}
+.sidebarIconToggle {
+   display: none;
+}
+.openSidebarMenu{
+    display: none;
+}
 
 #header_wrap {
     border-bottom: solid 1px #e44383;
@@ -570,7 +687,9 @@ div#header_navi ul li.entry {
     margin-top: 6px;
 }
 
-
+.smart_icon-button{
+    display: none;
+}
 /* ==============================================
  フッター
 =============================================== */
